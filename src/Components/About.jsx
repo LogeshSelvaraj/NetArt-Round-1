@@ -2,6 +2,7 @@ import React from 'react'
 
 function About() {
     return (
+        <>
         <div className="row about">
         <div className="trophy col col-md-4">
           <img src="/images/1.png" width="100%" height="100%" />
@@ -31,6 +32,10 @@ function About() {
           Kumar Singh, Honorable Minister of State.</p>
         </div>
       </div>
+      <div className="row">
+        <hr className="section-divider"/>
+        </div>
+        </>
     )
 }
 

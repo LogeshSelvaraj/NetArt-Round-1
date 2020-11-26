@@ -1,3 +1,14 @@
+.container-fluid {
+    padding: 0;
+    background-color: #FFF8C1;
+    background: linear-gradient( white, #f6f1d3, #FFF8C1);
+}
+
+.padding-purpose {
+    padding: 0 10px;
+}
+
+
 /* Header */
 
 .col-centered {
@@ -18,7 +29,99 @@ p {
 }
 
 .about {
-    padding: 50px 20px;
+    padding: 50px 20px 0;
+}
+
+
+/* Installation */
+
+@media(min-width:600px) {
+    .installation-first-section h4 {
+        font-weight: bold;
+        /* font-size: 0.5rem; */
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .inst-image {
+        padding: 20px 100px;
+    }
+}
+
+.inst-image {
+    padding-bottom: 10px;
+}
+
+.installation-first-section h4 {
+    font-weight: bold;
+}
+
+.installation-second-section h4 {
+    font-weight: bold;
+}
+
+
+/* .installation-second-section p {
+    text-align: justify;
+    font-size: 1.5rem;
+} */
+
+.installation-second-section p::first-line {
+    text-indent: 40px;
+}
+
+.installation-second-section {
+    padding-bottom: 50px;
+}
+
+
+/* section divider */
+
+.section-divider {
+    margin: 50px 400px;
+    border-top: 5px;
+    border-color: orangered;
+    border-style: solid;
+}
+
+.v-lines {
+    color: orangered;
+    font-weight: bolder;
+}
+
+
+/* footer */
+
+.footer {
+    background-color: rgb(226, 55, 107);
+    text-align: center;
+    padding: 35px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
+}
+
+.contact-1 {
+    flex: 1;
+}
+
+.contact-2 {
+    flex: 1;
+}
+
+.contact-3 {
+    flex: 1;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+}
+
+.contact-icons {
+    display: inline-flex;
+    vertical-align: middle;
+    margin-right: 5px;
 }
 
 
@@ -40,5 +143,24 @@ p {
     }
     .content img {
         margin-left: 0;
+    }
+    .section-divider {
+        margin: 10px 40px;
+        border-top: 5px;
+        border-color: orangered;
+        border-style: solid;
+    }
+    .installation-first-section {
+        padding: 20px 0;
+    }
+    .installation-second-section {
+        padding: 20px 0;
+    }
+    .footer {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .installation-second-section p {
+        font-size: 1.2rem;
     }
 }
