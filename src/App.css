@@ -76,15 +76,19 @@ p {
 
 /* section divider */
 
+.about-section-divider {
+    margin: 0;
+}
+
 .section-divider {
     margin: 50px 400px;
     border-top: 5px;
-    border-color: orangered;
+    border-color: #f05454;
     border-style: solid;
 }
 
 .v-lines {
-    color: orangered;
+    color: #f05454;
     font-weight: bolder;
 }
 
@@ -92,7 +96,7 @@ p {
 /* footer */
 
 .footer {
-    background-color: rgb(226, 55, 107);
+    background-color: #f05454;
     text-align: center;
     padding: 35px;
     display: flex;
@@ -147,7 +151,7 @@ p {
     .section-divider {
         margin: 10px 40px;
         border-top: 5px;
-        border-color: orangered;
+        border-color: #f05454;
         border-style: solid;
     }
     .installation-first-section {

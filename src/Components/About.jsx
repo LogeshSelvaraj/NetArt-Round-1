@@ -32,8 +32,10 @@ function About() {
           Kumar Singh, Honorable Minister of State.</p>
         </div>
       </div>
-      <div className="row">
+      <div className="row about-section-divider">
+      
         <hr className="section-divider"/>
+        
         </div>
         </>
     )

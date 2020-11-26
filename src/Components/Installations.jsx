@@ -9,8 +9,6 @@ function Installations() {
 
   const strArray = str.split("&");
 
-  console.log(strArray);
-
   return (
     <>
       <div className="installation-first-section ">
