@@ -5,7 +5,7 @@ function About() {
         <>
         <div className="row about">
         <div className="trophy col col-md-4">
-          <img src="/images/1.png" width="100%" height="100%" />
+          <img src="/images/1.png" width="100%" height="100%"  alt="trophy"/>
         </div>
         <div className="content col col-md-8">
         <h4>
@@ -25,7 +25,7 @@ function About() {
               with IoT enabled control panel.
             </li>
           </ul>
-          <img src="/images/2.png" width="100%" height="100%" />
+          <img src="/images/2.png" width="100%" height="100%" alt="award-photo" />
          <p> Government of India has awarded the "National Energy Conservation Award
           2018". Mr. G. Selvaraj, Joint Managing Director of C.R.I. Group received
           the award from Smt. Sumitra Mahajan, Speaker of Lok Sabha & Shri. Raj
